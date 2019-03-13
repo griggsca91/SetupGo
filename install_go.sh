@@ -5,3 +5,5 @@ cd ~/
 mkdir go
 cd go
 mkdir src
+echo "export PATH=$PATH:/usr/local/go/bin" >> $HOME/.profile
+source $HOME/.profile
